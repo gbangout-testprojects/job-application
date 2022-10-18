@@ -32,7 +32,7 @@ According to the analyses, there is indeed a statistically significant dependenc
 We have nominal variables so we performed one hot encoding (which is appropriate here)
 
 2. Machine learning
-3. 
+ 
 Randform forest is a popular supervised machine learning algorithm based on ensemble learning that we will use for our classification problem
 We did some tuning of the hyperparameter of the random forest model to treat the overfiting and to take into account the imbalanced dataset
 Confusion metric and F-score (combine precision-recall) are used in order to take into account the imbalanced dataset
