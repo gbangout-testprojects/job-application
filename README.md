@@ -32,19 +32,25 @@ According to the analyses, there is indeed a statistically significant dependenc
 We have nominal variables so we performed one hot encoding (which is appropriate here)
 
 2. Machine learning
+3. 
 Randform forest is a popular supervised machine learning algorithm based on ensemble learning that we will use for our classification problem
 We did some tuning of the hyperparameter of the random forest model to treat the overfiting and to take into account the imbalanced dataset
 Confusion metric and F-score (combine precision-recall) are used in order to take into account the imbalanced dataset
 Feature importance with the random forest is also assessed
 
 2.2. Building a machine learning model for prediction¶
+
 Randform forest is a popular supervised machine learning algorithm based on ensemble learning that we will use for our classification problem
+
 2.3 Feature importances
+
 2.4 Random Forest Model evaluation after feature selection¶
+
 based on the feature importance, we can re-evaluate the the model performance by droping some of least important features (e.g. let's drop the 3 last features U, brun and roux)
 
 Conclusion final:¶
-by removing the tree least important features, the random forest model still predicts the success and failure of application with an accuracy of around 88%. Performing further hyperparameter tuning and playing with feature importance can potentially help improve the model performance beyond 88%.
+
+After removing the tree least important features, the random forest model still predicts the success and failure of application with an accuracy of around 88%. Performing further hyperparameter tuning and playing with feature importance can potentially help improve the model performance beyond 88%.
 
 Tech Stack
 * python using a jupyter notebook 
